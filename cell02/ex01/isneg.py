@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-number = int(input())
+number = int(input())           # int means convert something into number if possible
 
 if number == 0:
     print("This number is positive and negative.")
