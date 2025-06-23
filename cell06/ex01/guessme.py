@@ -19,6 +19,6 @@ while guessedTimes < 5:         # ถ้า guessedTimes ไม่เกิน 5
         if guessedTimes < 5: # ถ้า guessedTime ยังไม่เกิน 5 ให้รันโค้ดนี้
             print('Your guess is not correct. The secret number is between 1 and', randomNumber)
 if win: # print ชนะหรือไม่ชนะ
-    print('Congratulations! You guessed the correct number!')
+    print('Congratulations! You guessed the correct number! 🎉🥳🎊')
 else:
     print('''Game Over! You've run out of guesses. The secret number was''', generatedNumber)
